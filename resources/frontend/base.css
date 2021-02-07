@@ -26,20 +26,6 @@ body {
     height: 100%;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-}
-
-.footer-item + .footer-item {
-    margin-left: 1rem;
-}
-
 a {
     text-decoration: none;
 }

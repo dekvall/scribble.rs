@@ -33,25 +33,13 @@ func init() {
 	if parseError != nil {
 		panic(parseError)
 	}
-	errorPage, parseError = errorPage.New("footer.html").Parse(findStringFromBox(templates, "footer.html"))
-	if parseError != nil {
-		panic(parseError)
-	}
 
 	lobbyCreatePage, parseError = template.New("lobby_create.html").Parse(findStringFromBox(templates, "lobby_create.html"))
 	if parseError != nil {
 		panic(parseError)
 	}
-	lobbyCreatePage, parseError = lobbyCreatePage.New("footer.html").Parse(findStringFromBox(templates, "footer.html"))
-	if parseError != nil {
-		panic(parseError)
-	}
 
 	lobbyPage, parseError = template.New("lobby.html").Parse(findStringFromBox(templates, "lobby.html"))
-	if parseError != nil {
-		panic(parseError)
-	}
-	lobbyPage, parseError = lobbyPage.New("footer.html").Parse(findStringFromBox(templates, "footer.html"))
 	if parseError != nil {
 		panic(parseError)
 	}
