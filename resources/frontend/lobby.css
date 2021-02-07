@@ -59,7 +59,7 @@
 
 #drawing-board {
     position: absolute;
-    background-color: white;
+    background-color: #FFFAFA;
     width: 100%;
     height: 100%;
 }
@@ -112,7 +112,7 @@
     padding: 5px;
     overflow-y: scroll;
     word-break: break-all;
-    background-color: white;
+    background-color: #FFFAFA;
 }
 
 #word-container {
@@ -148,14 +148,13 @@
 
 #message-input:focus {
     outline: none;
-    background-color: rgb(244, 183, 247);
+    background-color: #b3e0f1;
 }
 
 .dialog-title {
     margin-bottom: 1rem;
     font-size: 2.75rem;
     font-weight: bold;
-    color: rgb(240, 105, 127);
 }
 
 .word-button-container {
@@ -184,14 +183,14 @@ input[type="button"]:hover,
 .line-width-button-content:hover,
 #color-picker:hover {
     /** Important insures it won't be prevented by a 'transparent' main color*/
-    background-color: rgb(244, 183, 247) !important;
+    background-color: #5ac8f0;
 }
 
 button:active,
 input[type="button"]:active,
 #color-picker:active {
     /** Important insures it won't be prevented by a 'transparent' main color*/
-    background-color: rgb(243, 132, 247) !important;
+    background-color: #3597bb !important;
 }
 
 .header-button {
@@ -222,7 +221,7 @@ input[type="button"]:active,
 }
 
 .line-width-button:checked + .line-width-button-content {
-    background-color: rgb(243, 132, 247);
+    background-color: #3597bb;
 }
 
 #color-picker {
