@@ -1,0 +1,7 @@
+version: "3"
+services:
+  scribble:
+    build: ./
+    ports:
+      - "8383:8080"
+    restart: unless-stopped
